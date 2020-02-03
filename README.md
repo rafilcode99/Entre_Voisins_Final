@@ -34,6 +34,8 @@ To show the favorite neighbours list, click on the left right tab of the first s
 
 
 ## Launch 
+Programming language: JAVA 
+
 To run the application using an adnroid emulator
 * Clone or download
 * Download zip
@@ -52,13 +54,13 @@ To run the application in a real android device
 
 ## Test 
 4 local unit tests to run in the JVM 
-* getNeighboursWithSucces
-* deleteNeighbourWithSuccess
-* addAndRemoveFromFavoriteListWithSuccess
-* getFavoriteListWithSuccess
+* test: getNeighboursWithSucces
+* test: deleteNeighbourWithSuccess
+* test: addAndRemoveFromFavoriteListWithSuccess
+* test: getFavoriteListWithSuccess
 
 5 Instrumented unit tests to run in an android emulator/android device 
-* myNeighboursList_shouldNotBeEmpty
-* myNeighboursList_deleteAction_shouldRemoveItem
-* checkIfDetailsActivityIsLaunched
-* checkIfNeighbourNameIsFilled
+* test: myNeighboursList_shouldNotBeEmpty
+* test: myNeighboursList_deleteAction_shouldRemoveItem
+* test: checkIfDetailsActivityIsLaunched
+* test: checkIfNeighbourNameIsFilled
