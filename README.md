@@ -13,16 +13,22 @@ This is an android application made in the context of the 4th project of the Ope
 * Add a new neighbour to the list
 * Remove a neighbour from the list
 
+![](ScreenShots/Neighbours.png)
+
 On click on a neighbour, it shows
 * The neighbour's name
 * His location
 * His phone number and facebook account
 
-On click on the favorite button (The star) 
+![](ScreenShots/Details.png)
+
+On click on the favorite button (The star icon) 
 * The neighbour is added to favorite list
 * Reclick the button to remove the neighbour from the favorite list
 
-To show the favorite neighbours list, click on the left right tab of the first screen
+To show the favorite neighbours list, click on the left right tab of the first screen (FAVORITES)
+
+![](ScreenShots/Favorite.png)
 
 
 
@@ -41,7 +47,7 @@ To run the application in a real android device
 * Download zip
 * Unzip the repository
 * Open the project using android studio
-* Connect the android device to android studio using an USB cable (Device's developmer mode shoude have been already activated) 
+* Connect the android device to android studio using an USB cable (Device's developer mode should have been already activated) 
 * Select the device and run the application
 
 ## Test 
